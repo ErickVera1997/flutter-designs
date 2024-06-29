@@ -1,15 +1,4 @@
-buildscript {
-    ext.kotlin_version = '1.5.0'
-    repositories {
-        google()
-        jcenter()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
+ext.kotlinVersion = '1.7.10'
 
 allprojects {
     repositories {
